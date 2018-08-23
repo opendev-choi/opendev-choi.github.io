@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="806c24cc-161e-47d9-8d04-f1e0cf6adcce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_pages/category-archive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-23-Python-f-string.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-23-Python-f-string.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,12 +37,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="52" />
-          <entry key="md" value="2533" />
+          <entry key="md" value="2535" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="2529" />
+          <entry key="Markdown" value="2531" />
           <entry key="Python" value="56" />
         </counts>
       </usages-collector>
@@ -77,19 +77,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-23-Python-f-string.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="171">
-                <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="10" selection-end-column="1" />
+              <first_editor relative-caret-position="380">
+                <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_pages/category-archive.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
@@ -121,8 +121,8 @@
         <option value="$PROJECT_DIR$/_posts/2018-08-23-Python-Pydoc.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-22-Python-Type-Hint.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-23-Python-docstring.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-08-23-Python-f-string.md" />
         <option value="$PROJECT_DIR$/_pages/category-archive.html" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-23-Python-f-string.md" />
       </list>
     </option>
   </component>
@@ -263,20 +263,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-23-Python-f-string.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="10" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_pages/category-archive.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-23-Python-f-string.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="380">
+            <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
