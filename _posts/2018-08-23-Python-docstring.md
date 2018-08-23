@@ -5,7 +5,7 @@ categories: Python PEP
 ---
 
 ## Reference
-> https://www.python.org/dev/peps/pep-0257/
+> [https://www.python.org/dev/peps/pep-0257/] [1]
 >
 > Python 기준 버전 3.7.0
 
@@ -81,3 +81,5 @@ docstring은 Python 에서 지원하는 module, function, class, method 의 상�
 그 외에도 docstring을 작성할 시에 맞춰줘야 하는 규칙들이 있는데
 
 Reference로 써 놓은 사이트에 들어가보면 규칙들을 전부 볼수 있다
+
+[1]: https://www.python.org/dev/peps/pep-0257/

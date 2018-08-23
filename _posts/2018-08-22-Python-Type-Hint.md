@@ -5,7 +5,7 @@ categories: Python PEP
 ---
 
 ## Reference
-> https://www.python.org/dev/peps/pep-0484/
+> [https://www.python.org/dev/peps/pep-0484/] [1]
 >
 > Python 기준 버전 3.7.0
  
@@ -40,3 +40,5 @@ Python 3.5 버전부터 지원하기 시작한 기능중 PEP484에 기반한 Typ
 > ```
 
 와 같이 return 값 지정이 가능하며, 이또한 IDE에서 code completion 을 지원하게끔 해준다
+
+[1]:https://www.python.org/dev/peps/pep-0484/
