@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="806c24cc-161e-47d9-8d04-f1e0cf6adcce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-08-22-Python-Type-Hint.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-22-Python-Type-Hint.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-08-23-Python-docstring.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-23-Python-docstring.md" afterDir="false" />
     </list>
@@ -54,8 +53,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-23-Python-docstring.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="290">
-                <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+              <first_editor relative-caret-position="342">
+                <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -66,8 +65,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-22-Python-Type-Hint.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="347">
-                <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <first_editor relative-caret-position="57">
+                <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -239,8 +238,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-23-Python-docstring.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="290">
-            <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <first_editor relative-caret-position="342">
+            <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>
@@ -249,8 +248,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-22-Python-Type-Hint.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="347">
-            <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>

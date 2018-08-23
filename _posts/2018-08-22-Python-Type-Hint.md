@@ -14,7 +14,7 @@ categories: Python PEP
 
 Python 3.5 버전부터 지원하기 시작한 기능중 PEP484에 기반한 Type Hint라는 기능이 있다.
 
-> ```python3
+> ```python
 > blahblah:str = ''
 > ```
 
@@ -34,7 +34,7 @@ Python 3.5 버전부터 지원하기 시작한 기능중 PEP484에 기반한 Typ
 
 이뿐만 아니라 function 의 return 값또한 hint 를 줄수 있는데
 
-> ```python3
+> ```python
 > def function(var1: str) -> str:
 >     return var1
 > ```

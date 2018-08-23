@@ -16,7 +16,7 @@ docstring은 Python 에서 지원하는 module, function, class, method 의 상�
 
 다음과 같은 형태로 사용이 가능하며,
 
-> ```python3
+> ```python
 > def function(var1: str) -> None:
 >    """ function docstring """
 >    pass
@@ -24,7 +24,7 @@ docstring은 Python 에서 지원하는 module, function, class, method 의 상�
 
 \_\_doc__ 속성으로 불러올수도 있다
 
-> ```python3
+> ```python
 > def function(var1: str) -> None:
 >     """ function docstring """
 >     pass
@@ -37,7 +37,7 @@ docstring은 Python 에서 지원하는 module, function, class, method 의 상�
 #### oneline docstring
 한줄로만 이루어진 docstring 은 다음과 같이 사용하며, 몇몇 권장하는 규칙들로 이루어져 있다
 
-> ```python3
+> ```python
 > def function(var1: str) -> None:
 >     """ function docstring """
 >     pass
@@ -52,7 +52,7 @@ docstring은 Python 에서 지원하는 module, function, class, method 의 상�
 - 단순히 function 의 원형을 다시 쓰지 않도록 해야 한다
 
 >ex) bad case
->```
+>```python
 >def function(a, b):
 >    """function(a, b) -> list"""
 >```
@@ -66,7 +66,7 @@ docstring은 Python 에서 지원하는 module, function, class, method 의 상�
 - 요약 라인 뒤에 한줄의 줄바꿈 뒤에 상세한 설명을 작성한다
 - 요약 라인은 여는 큰따옴표와 같은 라인 혹은 다음 라인에 존재할수 있다
 - 모든 라인은 첫번째 라인과 같은 띄어쓰기 수준으로 작성되어야 한다
-> ```python3
+> ```python
 > def function(a, b):
 >     """ divide a, b and return value
 >     
