@@ -16,37 +16,37 @@ docstring은 Python 에서 지원하는 module, function, class, method 의 상�
 
 다음과 같은 형태로 사용이 가능하며,
 
-```python3
-def function(var1: str) -> None:
-    """ function docstring """
-    pass
-```
+> ```python3
+> def function(var1: str) -> None:
+>    """ function docstring """
+>    pass
+>```
 
-__doc__ 속성으로 불러올수도 있다
+\_\_doc__ 속성으로 불러올수도 있다
 
-```python3
-def function(var1: str) -> None:
-    """ function docstring """
-    pass
-    
-print(function.__doc__)
+> ```python3
+> def function(var1: str) -> None:
+>     """ function docstring """
+>     pass
+> ```
+> print(function.\_\_doc__)
+>
+> output >>> function docstring
 
-output >>> function docstring
-```
 
 #### oneline docstring
 한줄로만 이루어진 docstring 은 다음과 같이 사용하며, 몇몇 권장하는 규칙들로 이루어져 있다
 
-```python3
-def function(var1: str) -> None:
-    """ function docstring """
-    pass
-```
+> ```python3
+> def function(var1: str) -> None:
+>     """ function docstring """
+>     pass
+> ```
 
 - 한줄의 docstring 이라도 3개짜리 큰따옴표(""") 를 사용하는것이 차후 확장에 용이하다
 - 닫는 큰따옴표는 같은 줄에 있는것이 좀더 괜찮게 보이게 된다
 - docstring 위 아래로 빈줄이 있게 없어야 한다
-- XX를 반환, XX를 계산 과 같은 설명형이 아닌 명령형으로 작성되어야 한다.
+- XX를 반환, XX를 계산 과 같은 설명형이 아닌 명령형으로 작성되어야 한다
   - 안좋은 예) XX를 계산하여 반환합니다
   - 좋은 예) XX를 계산 그리고 계산된 값을 반환
 - 단순히 function 의 원형을 다시 쓰지 않도록 해야 한다

@@ -14,9 +14,9 @@ categories: Python PEP
 
 Python 3.5 버전부터 지원하기 시작한 기능중 PEP484에 기반한 Type Hint라는 기능이 있다.
 
-```python3
-blahblah:str = ''
-```
+> ```python3
+> blahblah:str = ''
+> ```
 
 와 같이 변수에 Type을 참조하게끔 할수 있으나,
 
@@ -34,9 +34,9 @@ blahblah:str = ''
 
 이뿐만 아니라 function 의 return 값또한 hint 를 줄수 있는데
 
-```python3
-def function(var1: str) -> str:
-    return var1
-```
+> ```python3
+> def function(var1: str) -> str:
+>     return var1
+> ```
 
 와 같이 return 값 지정이 가능하며, 이또한 IDE에서 code completion 을 지원하게끔 해준다
