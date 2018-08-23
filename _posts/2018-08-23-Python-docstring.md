@@ -1,7 +1,7 @@
 ---
 title: "About Python docstring"
 date: 2018-08-23 11:00:00 -0400
-categories: Python PEP
+categories: Python_PEP
 ---
 
 ## Reference

@@ -1,7 +1,7 @@
 ---
 title: "About Python Type Hint"
 date: 2018-08-22 23:25:00 -0400
-categories: Python PEP
+categories: Python_PEP
 ---
 
 ## Reference

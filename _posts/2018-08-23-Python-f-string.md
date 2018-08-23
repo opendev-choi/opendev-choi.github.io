@@ -1,7 +1,7 @@
 ---
-title: "Python fstring a-Z"
+title: "About Python fstring"
 date: 2018-08-23 19:20:00 -0400
-categories: Deep Dive into Basic
+categories: Deep_Dive_into_Basic
 ---
 
 ## Reference
