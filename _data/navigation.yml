@@ -1,0 +1,7 @@
+main:
+  - title: "tag"
+    url: /tag-archive/
+  - title: "category"
+    url: /category-archive/
+  - title: "about"
+    url: /about/
