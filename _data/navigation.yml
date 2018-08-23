@@ -1,5 +1,5 @@
 main:
   - title: "tag"
-    url: /tag-archive/
-  - title: "category"
-    url: /category-archive/
+    url: /tags/
+  - title: "Category"
+    url: /categories/
