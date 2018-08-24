@@ -96,7 +96,7 @@ analytics:
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
-
+g-analytics: UA-124602323-1
 
 # Site Author
 author:
