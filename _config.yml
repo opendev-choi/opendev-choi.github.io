@@ -101,7 +101,7 @@ analytics:
 author:
   name             : "choijh"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "아직 모르는게 너무 많습니다. 피드백 환영."
   location         : "Seoul, South Korea"
   email            : "opendev.choi@gmail.com"
   uri              :
@@ -112,7 +112,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : opendev-choi
   gitlab           :
   google_plus      :
   keybase          :
