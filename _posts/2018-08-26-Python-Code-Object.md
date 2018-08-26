@@ -107,4 +107,4 @@ categories: Deep_Dive_into_Basic
 
 [1]: https://stackoverflow.com/questions/33683217/python-code-type-flags
 [2]: https://www.slideshare.net/daykim7/pyconkr-2018-deep-dive-into-coroutine-110194978/1
-[3]: /2018-08-24-Python-Byte-codes.md
+[3]: /deep_dive_into_basic/Python-Byte-codes
