@@ -7,6 +7,7 @@ categories: Deep_Dive_into_Basic
 ## 참고
 > [https://stackoverflow.com/questions/33683217/python-code-type-flags] [1]
 > [https://www.slideshare.net/daykim7/pyconkr-2018-deep-dive-into-coroutine-110194978/1] [2]
+> 
 > Python 기준 버전 3.7.0
 
 ## Python Code Object
@@ -29,12 +30,15 @@ categories: Deep_Dive_into_Basic
 
 
 > \_\_code__.co_consts
->
+
+
 해당 코드에서 사용한 상수 값을 모두 모아놓은 속성이다
+
 ```python
 print(add_c.__code__.co_consts)
 >> (None, 5)
 ```
+
 첫번째 인자가 None 인 이유는 docstring을 작성하지 않았기 때문이다
 
 docstring 을 작성하게 되면 첫번째 인자에 들어가게 된다
@@ -43,6 +47,7 @@ docstring 을 작성하게 되면 첫번째 인자에 들어가게 된다
 
 
 > \_\_code__.co_flags
+
 ```python
 print(add_c.__code__.co_flags)
 >> 67
@@ -76,6 +81,7 @@ NOFREE    = 0100 0000
 ```
 
 > \_\_code__.co_varnames
+
 ```python
 print(add_c.__code__.co_varnames)
 >> ('a', 'b', 'c')
@@ -83,6 +89,7 @@ print(add_c.__code__.co_varnames)
 코드에서 사용한 변수 이름이 담겨있다
 
 > \_\_code__.co_names
+
 ```python
 print(add_c.__code__.co_names)
 >> ('print', 'int')
@@ -90,6 +97,7 @@ print(add_c.__code__.co_names)
 내부적으로 사용한 함수의 이름이 담겨있다
 
 > \_\_code__.co_code
+
 ```python
 for byte in bytes(add_c.__code__.co_code):
    print(f'{byte:x} ', end='')
