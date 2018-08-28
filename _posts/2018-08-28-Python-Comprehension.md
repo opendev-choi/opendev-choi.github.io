@@ -6,7 +6,6 @@ categories: Deep_Dive_into_Basic
 
 ## 참고
 > [https://docs.python.org/3/tutorial/datastructures.html] [1]
-> [https://www.slideshare.net/daykim7/pyconkr-2018-deep-dive-into-coroutine-110194978/1] [2]
 > 
 > Python 기준 버전 3.7.0
 
@@ -40,8 +39,8 @@ print(squares)
 
 dictionary, set 또한 Comprehension 을 통하여 간결하게 dictionary, set을 만들어 줄수 있다.
 
-#### how to use Comprehension
-###### List
+## how to use Comprehension
+#### List
 ```[x for x in range(10)]``` 와 같은 형태가 기본적인 형태이며, Loop 문을 돌면서 0 ~ 9 까지 들어있는 List를 만드는 구조이다
 
 이 Comprehension 을 사용할때 변수를 다음과 같이 계산할수도 있다
@@ -62,7 +61,7 @@ if 문과 함께 사용하여 데이터를 가공할수도 있다
 >>> [fruit.upper() for fruit in ['apple', 'banana', 'grape']]
 ```
 
-###### dictionary
+## dictionary
 Dictionary 또한 순회하며 Comprehension 을 사용할수 있으며,
 
 다음과 같이 쓰일수 있다
@@ -71,7 +70,7 @@ Dictionary 또한 순회하며 Comprehension 을 사용할수 있으며,
 {1: 3, 2: 6, 3: 2}
 ```
 
-###### Set
+## Set
 set 도 동일하다. { } 로 감싸주면 된다.
 ```python
 >>> {x for x in [1, 1, 3, 3, 3, 4, 5, 6]}
@@ -79,4 +78,3 @@ set 도 동일하다. { } 로 감싸주면 된다.
 ```
 
 [1]: https://docs.python.org/3/tutorial/datastructures.html
-[2]: https://www.slideshare.net/daykim7/pyconkr-2018-deep-dive-into-coroutine-110194978/1
