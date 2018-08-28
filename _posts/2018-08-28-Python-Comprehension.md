@@ -59,6 +59,7 @@ if 문과 함께 사용하여 데이터를 가공할수도 있다
 또한 리스트를 순회하며 method를 호출할수도 있다
 ```python
 >>> [fruit.upper() for fruit in ['apple', 'banana', 'grape']]
+['APPLE', 'BANANA', 'GRAPE']
 ```
 
 ## dictionary
