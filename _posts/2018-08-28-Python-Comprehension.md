@@ -40,7 +40,7 @@ print(squares)
 dictionary, set 또한 Comprehension 을 통하여 간결하게 dictionary, set을 만들어 줄수 있다.
 
 ## how to use Comprehension
-#### List
+## List
 ```[x for x in range(10)]``` 와 같은 형태가 기본적인 형태이며, Loop 문을 돌면서 0 ~ 9 까지 들어있는 List를 만드는 구조이다
 
 이 Comprehension 을 사용할때 변수를 다음과 같이 계산할수도 있다
