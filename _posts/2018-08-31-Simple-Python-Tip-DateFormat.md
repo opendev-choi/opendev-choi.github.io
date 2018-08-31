@@ -1,5 +1,5 @@
 ---
-title: "About Python Comprehension"
+title: "Python Simple Tip DateFormat"
 date: 2018-08-28 13:20:00 -0400
 categories: Simple-Online-Tip
 ---
