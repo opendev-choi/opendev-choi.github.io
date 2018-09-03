@@ -37,12 +37,12 @@ Python에서는 크게 다음 모듈들이 지원하고 있습니다.
 pyinstaller 를 간단하게 소개해보자면 Python2.7 and Python3.3+ 이상을 exe bundle로 묶어주는 Python 모듈입니다. 
 
 실행 방법도 간단하게 pyinstaller module.py 면 충분하며,
-한개의 exe 파일로 묶기 위해서는 -F 옵션 혹은 --onefile 옵션을 사용하면 됩니다.
+한개의 exe 파일로 묶기 위해서는 -F 옵션 혹은 \-\-onefile 옵션을 사용하면 됩니다.
 
 만약 사용할때 pyinstaller 명령어를 찾을수 없다고 나오는 경우에는 window 의 경우에는 path 환경변수에 python 설치경로의 Scripts 폴더를 추가해주면 해결됩니다.
 
 ### Options
-pyinstaller 의 옵션은 다음과 같다. [전체 옵션][2]은 다음 문서를 참조하면 됩니다.
+pyinstaller 의 옵션은 다음과 같습니다. [전체 옵션][2]은 다음 문서를 참조하면 됩니다.
 ```
 usage: pyinstaller [-h] [-v] [-D] [-F] [--specpath DIR] [-n NAME]
                    [--add-data <SRC;DEST or SRC:DEST>]
@@ -63,24 +63,30 @@ usage: pyinstaller [-h] [-v] [-D] [-F] [--specpath DIR] [-n NAME]
 ```
 몇몇 주요 옵션들을 살펴보자면,
 
---clean	
+\-\-clean	
+
     : build 전에 임시 파일들을 모두 삭제한다.
       build 시 import module 을 변경했을 경우 새로 import된 모듈을 불러오지 못할 경우 사용하면 된다.
 
---onfile
+\-\-onfile
+
     : build 시 폴더가 아닌 한개의 exe파일로 작성되어 나오게 된다.
       (기본 세팅을 dll등이 압축되지 않고 폴더로 나오게 된다)
 
---icon
+\-\-icon
+
     : 아이콘을 지정할수 있다. (버그인지 경로에 띄어쓰기 불가능)
 
---name
+\-\-name
+
     : output 파일의 이름을 지정한다.
 
---windowed
+\-\-windowed
+
     : window 모드, 실행시 console 창을 띄우지 않는다.
 
---version-file
+\-\-version-file
+
     : version file을 읽어 해당 프로그램에 적용한다.
       version file은 다음과 같이 설정한다.
 ```python
@@ -114,7 +120,9 @@ kids=[
 ]
 )
 ```
-- ![no_support_completion](/assets/img/property.jpg)
+> ![no_support_completion](/assets/img/property.jpg)
+>
+> 다음과 같이 나오게 됩니다.
 
 다음 옵션들을 사용하여 빌드할 경우 별도의 path를 지정하지 않을 경우에는 \\dist 폴더 안에 exe파일 혹은 폴더가 생기게 되며, python이 설치되지 않은 경우에도 사용이 가능하게 됩니다.
 
@@ -135,22 +143,22 @@ major 모듈들 ([목록][4]) 들의 경우에는 자동으로 리스트를 넣�
 ex) /lib, /usr/lib 등의 system lib 이 있는 폴더
 
 ### one folder bundle
--F, --one-file 옵션을 붙히지 않고 빌드할 경우에는 dist 폴더 내부에 해당 파일명의 폴더가 생기게 되며, 다른 시스템에서 사용할때는 해당 폴더 통째로, 혹은 압축하여 전달하면 사용이 가능합니다.
+-F, \-\-one-file 옵션을 붙히지 않고 빌드할 경우에는 dist 폴더 내부에 해당 파일명의 폴더가 생기게 되며, 다른 시스템에서 사용할때는 해당 폴더 통째로, 혹은 압축하여 전달하면 사용이 가능합니다.
 
 장점으로써는 import 가 바뀌지 않았다는 가정 하에 .exe 파일만 다시 보내주면 수정된 코드로 실행이 가능하다는 점입니다.
 
-이는 -F, --one-file 옵션으로 묶었을때 실제 파일이 6mb에서 module 이 많아질수록 파일 크기가 늘어나기 때문에 꽤나 큰 장점입니다.
+이는 -F, \-\-one-file 옵션으로 묶었을때 실제 파일이 6mb에서 module 이 많아질수록 파일 크기가 늘어나기 때문에 꽤나 큰 장점입니다.
 
 다만, 파일 관리(상당히 많은 양의 dll, lib 등이 포함되어 있다)가 어렵기 때문에 이점은 단점으로 적용될수 있습니다.
 
 ### one file bundle
--F, --one-file 옵션을 사용하였을 경우에는 dist 폴더에 스크립트명.exe 파일이 생기게 됩니다.
+-F, \-\-one-file 옵션을 사용하였을 경우에는 dist 폴더에 스크립트명.exe 파일이 생기게 됩니다.
 
 이는 파일 하나만 관리하면 되나, 다음과 같은 특징이 있습니다.
 
 - OS 마다 다른 temp 폴더에 _MEIxxxx 파일이 생성됩니다.
   - 이는 정상적으로 프로그램이 종료되게 된다면 삭제되는 파일입니다.
-  - --runtime-tmpdir 옵션을 통하여 디렉토리 지정이 가능합니다.
+  - \-\-runtime-tmpdir 옵션을 통하여 디렉토리 지정이 가능합니다.
 
 이 특징의 경우에는 프로그램이 정상적으로 종료되지 않을 경우 ex) kill -9, taskkill /F _MEI 파일을 남기게 되며, 이는 무시할수 없을 정도의 디스크를 잡아먹게 됩니다.
 
