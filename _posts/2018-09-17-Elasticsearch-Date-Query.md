@@ -1,5 +1,5 @@
 ---
-title: "Python underscore"
+title: "Elasticsearch Date Query"
 date: 2018-09-17 13:40:00 -0400
 categories: elasticsearch
 ---
@@ -27,7 +27,9 @@ GET _search
 }
 ```
 와 같이 조건을 지정할수 있습니다.
-> 비교
+
+비교
+
 | 속성 | 설명 |
 |------|------|
 |gt|Greater than|
