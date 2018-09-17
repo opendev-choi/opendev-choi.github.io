@@ -12,7 +12,8 @@ categories: elasticsearch
 ## Date Query
 필드 타입이 Date 인 경우에는 Oracle 에서 흔히 쓰는 INTERVAL X MONTH 같은 쿼리를 Elasticsearch 에서 구현할수 있는 방법입니다.
 
-> date가 현재 - 1일 ~ 현재까지의 데이터를 구하는 쿼리
+date가 현재 - 1일 ~ 현재까지의 데이터를 구하는 쿼리
+
 ```
 GET _search
 {
@@ -58,5 +59,5 @@ date + X 속성 혹은 date - X 속성
 
 ex) now-3d/d - 현재일자를 Day 기준으로 반올림하고 3일을 뺀 일자
 
-[1] : https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
-[2] : https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#date-math
+[1]:https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
+[2]:https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#date-math
