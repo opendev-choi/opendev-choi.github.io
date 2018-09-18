@@ -59,5 +59,7 @@ date + X 속성 혹은 date - X 속성
 
 ex) now-3d/d - 현재일자를 Day 기준으로 반올림하고 3일을 뺀 일자
 
+-다만, now 는 UTC 기준으로 작성되기 때문에 이를 유의하여야 한다!-
+
 [1]:https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html
 [2]:https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#date-math
