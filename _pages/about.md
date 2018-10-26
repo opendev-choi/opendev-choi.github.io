@@ -28,7 +28,7 @@ Collection Engine Developer.
 ---
 
 ### Skills
-__Python__
+Python
 - 기존 c++ 솔루션 python 리팩토링
 - twisted 등을 사용한 네트워크 통신 모듈 개발
 - http service 를 이용한 rest api server/client 개발
@@ -37,13 +37,13 @@ __Python__
 - Google Protocol buffer 를 사용한 통신규격 개발
 
 
-__C++__
+C++
 - snmp를 사용한 네트워크 통신 개발
 - Google Protocol buffer 를 사용한 통신규격 개발
 
 
 ### Career
-__(주) 하몬소프트 서버 엔진팀 2016.10.4 ~__
+(주) 하몬소프트 서버 엔진팀 2016.10.4 ~
 - SNMP 를 이용한 서버/회선 성능 수집 엔진 개발
 - CLI 사용한 IPT 장비 상태/성능 수집 엔진 개발
 - sFlow, netFlow 등을 통한 Traffic 정보 수집 엔진 개발
@@ -53,7 +53,7 @@ __(주) 하몬소프트 서버 엔진팀 2016.10.4 ~__
 
 
 ### Projects
-__(주) 하몬소프트 NMS(네트워크 관제) 솔루션__
+(주) 하몬소프트 NMS(네트워크 관제) 솔루션
 2016.10 ~ 
 - 네트워크 장비 (Switch, Router) 회선 BPS, PPS 등 장비성능 정보 수집
 - Trap, Syslog 등 장비 메세지 수집 및 이벤트 탐지
@@ -65,7 +65,7 @@ __(주) 하몬소프트 NMS(네트워크 관제) 솔루션__
 - 빌드 환경 통합을 위한 C++, Python 빌드 서버 구축
 
 
-__(주) 하몬소프트 분할 수집 NMS 솔루션 개발__
+(주) 하몬소프트 분할 수집 NMS 솔루션 개발
 2018.04 ~
 - BigData Platform을 이용한 NMS 수집
 - Kafka 를 통한 프로세스간 통신
@@ -78,13 +78,13 @@ __(주) 하몬소프트 분할 수집 NMS 솔루션 개발__
 - ElasticSearch 데이터 분당 300MB 수준 검증 완료
 
 
-__(주) 하몬소프트 TMS(트레픽 관제) 솔루션__
+(주) 하몬소프트 TMS(트레픽 관제) 솔루션
 2016.10 ~
 - NetFlow v9, sFlow v5 수집 경험
 - Source IP, Destination IP, ProtoCol, Source Port 등 트래픽 기본 정보 수집
 
 
-__교육청 NMS(네트워크 관제) 사업__
+교육청 NMS(네트워크 관제) 사업
 2016.10 ~ 2017.06
 - 다중 계층 구조(본청 - 지원청)로 인한 데이터 분할 수집 구조
 - 다중 계층간 데이터 동기화 기능 구현
@@ -92,7 +92,7 @@ __교육청 NMS(네트워크 관제) 사업__
 - 타 교육기관과 연계하여 데이터 동기화 기능 구현
 - Tcp port 응답시간/감시 엔진 개발
 
-__쿠팡 EMS(종합관제)__
+쿠팡 EMS(종합관제)
 2017.12 ~ 2018.05
 - 콜센터 녹취장비 수집을 통한 콜센터 상태 감시 엔진 개발
 - VoiceGateWay 수집을 통한 장애감시 엔진 개발
