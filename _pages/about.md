@@ -21,7 +21,7 @@ Collection Engine Developer.
 - geek codes
 - 볼링
 
-### Hate things
+### Dislike things
 - 쓴 커피
 - dirty codes
 
