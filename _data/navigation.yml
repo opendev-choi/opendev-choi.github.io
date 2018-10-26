@@ -1,6 +1,4 @@
 main:
-  - title: "tag"
-    url: /tags/
   - title: "Category"
     url: /categories/
   - title: "About me"
