@@ -1,6 +1,6 @@
 ---
 title: "Kudu 10 million insert test "
-date: 2018-11-16 10:40:00 -0400
+date: 2018-11-16 13:40:00 -0400
 categories: kudu
 ---
 
@@ -15,6 +15,7 @@ KUDU 의 특징인지 Python 을 평소에 좋아하던 저는 깔끔하게 정�
 
 그나마 해당 소스가 가장 잘 정리되어 있던 예제 소스를 먼저 소개하겠습니다.
 [https://github.com/cloudera/kudu-examples/tree/master/python/dstat-kudu] [1] -- Python 예제
+
 [https://github.com/cloudera/kudu/tree/master/examples/cpp] [2] -- C++ 예제, 빌드도 간단하고 쉬움
 
 해당 두개 소스에서 보고 Python kudu-python 이란 모듈을 사용하여 테스트를 진행하게 되었습니다.
@@ -113,6 +114,8 @@ static Status InsertRows(const shared_ptr<KuduTable>& table, int num_rows) {
 
 역시 C++ 라이브러리를 사용하여서 그런지 속도가 많이 빨라진것을 알수 있었습니다.
 
+여기서 중요한 점은 5만건 단위가 아닌 C++ 엔진 자체는 1000만건 테스트라는 것입니다.
+
 3회 테스트시 다음과 같은 성능을 보여줬습니다.
 
 |회차|소요시간|
@@ -124,7 +127,7 @@ static Status InsertRows(const shared_ptr<KuduTable>& table, int num_rows) {
 기존의 가장 빠른 속도인 199초보다 가장 느린 것도 149초로 무려 50초 가량 빨라진것을 알수 있었습니다.
 
 ## 결론?
-kudu Python 라이브러리는 확실히 c++ 라이브러리보다 꽤 느리다는것을 알수 있었습니다.
+kudu Python 라이브러리는 확실히 c++ 라이브러리보다 매우 느리다는것을 알수 있었습니다.
 
 다만, 편의성, 익숙한 언어등 성능이 매우 많이 최적화 되어야 하는 경우가 아니라면 kudu python 라이브러리를 쓰는것도 하나의 방법이 될 수 있습니다.
 
