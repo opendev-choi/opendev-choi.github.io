@@ -1,6 +1,6 @@
 ---
 title: "mesos marathon"
-date: 2018-11-16 10:40:00 -0400
+date: 2018-11-23 17:10:00 -0400
 categories: open-source
 ---
 
