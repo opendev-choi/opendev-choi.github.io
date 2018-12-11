@@ -1,5 +1,5 @@
 ---
-title: "Mesos Marathon Spark 사용시 주의점"
+title: "Mesos Marathon 사용기 및 Spark 주의점"
 date: 2018-12-11 10:00:00 -0400
 categories: open-source
 ---
