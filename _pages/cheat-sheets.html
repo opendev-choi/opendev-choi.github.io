@@ -1,0 +1,13 @@
+---
+layout: archive
+permalink: /cheat-sheets/
+title: "Post cheatsheets"
+author_profile: true
+---
+{% assign cheatsheets = site.cheatsheets %}
+{% for sheets in cheatsheets %}
+  <!-- <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2> -->
+  {% for post in sheets.items %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endfor %}
