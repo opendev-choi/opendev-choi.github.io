@@ -270,7 +270,17 @@ defaults:
       comments: # true
       share: true
       related: true
-
+  # _cheatsheets
+  - scope:
+      path: ""
+      type: cheatsheets
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
 
 collections:
   cheatsheets:

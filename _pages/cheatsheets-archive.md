@@ -7,4 +7,4 @@ entries_layout: grid
 classes: wide
 ---
 
-Sample document listing for the collection `ch1`.
+Sample document listing for the collection `cha1`.
