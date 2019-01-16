@@ -1,6 +1,6 @@
 ---
 title: "배포 프로세스 없는 회사 사원의 Docker 사용기"
-date: 2018-01-16 15:00:00 -0400
+date: 2019-01-16 15:00:00 -0400
 categories: open-source
 ---
 
